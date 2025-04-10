@@ -1,0 +1,75 @@
+.container {
+  padding-block: 50px;
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+      background: #6c757d;
+      width: 410px;
+      text-align: center;
+      padding: 15px 40px;
+      color: #fff;
+      border-radius: 20px 20px 0 0;
+    }
+    .auth {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding: 15px 40px;
+      background: #d9d9d9;
+      width: 410px;
+      height: 290px;
+      border-radius: 0 0 20px 20px;
+
+      .inputsContainer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 7px;
+        position: relative;
+        input {
+          background: #6c757d;
+          width: 85%;
+          height: 40px;
+          border: 1px solid rgba(0, 0, 0, 0.565);
+          padding-left: 10px;
+          font-size: 18px;
+          color: #fff;
+        }
+        .eye{
+            position: absolute;
+            right: 31px;
+            bottom: 3px;
+            font-size: 24px;
+            cursor: pointer;
+            color: #fff;
+        }
+      }
+      button {
+        background: #6c757d;
+        width: 170px;
+        height: 40px;
+        border-radius: 15px;
+        color: #fff;
+        font-size: 19px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+    .helper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      background: #6c757d;
+      width: 410px;
+      border-radius: 20px;
+      color: #fff;
+      padding: 15px 40px;
+      margin-top: 50px;
+    }
+  }
+}
